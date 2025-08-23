@@ -32,6 +32,7 @@ export const featuresDatas: FeatureData[] = [
     buttonText: "Telusuri",
     imageUrl: BelaDiriIcon,
     backgroundColor: "bg-primary-dark",
+    href: "/beladiri",
   },
   {
     title: "Motivasi Harian",

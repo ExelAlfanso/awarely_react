@@ -6,6 +6,7 @@ import { Laporan } from "../Pages/Forms/Laporan";
 import Logout from "@/Pages/Auth/Logout";
 import RekanMelangkah from "@/Pages/Forms/RekanMelangkah";
 import Ultksp from "@/Pages/Forms/Ultksp";
+import BelaDiri from "@/Sections/Beladiri";
 export const AppRoutes = () => {
   return (
     <BrowserRouter>
@@ -16,6 +17,7 @@ export const AppRoutes = () => {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/logout" element={<Logout />} />
         <Route path="/laporan" element={<Laporan />} />
+        <Route path="/beladiri" element={<BelaDiri />} />
         <Route path="/layanan/ultksp" element={<Ultksp />} />
         <Route path="/layanan/rekanmelangkah" element={<RekanMelangkah />} />
         <Route path="*" element={<div>404 Not Found</div>} />
