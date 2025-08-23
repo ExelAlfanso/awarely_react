@@ -1,5 +1,3 @@
-import React from "react";
-
 const YouTubeThumbnail = ({ videoUrl }: { videoUrl: string }) => {
   // Extract video ID from YouTube URL
   const getYouTubeID = (url: string) => {

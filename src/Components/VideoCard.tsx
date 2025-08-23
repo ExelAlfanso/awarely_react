@@ -1,6 +1,5 @@
 import YoutubeThumbnail from "@/lib/YoutubeThumbnail";
 import React from "react";
-import Header from "./Header";
 import { Link } from "react-router-dom";
 
 interface VideoCardProps {
@@ -21,7 +20,7 @@ const VideoCard: React.FC<VideoCardProps> = ({
   href,
 }) => {
   return (
-    <div className="h-auto m-5 transition-transform bg-white w-100 rounded-2xl hover:scale-105">
+    <div className="h-auto m-5 text-xs transition-transform bg-white xl:w-100 lg:text-xl w-60 lg:w-70 rounded-2xl hover:scale-105">
       <Link
         id={id}
         className={`text-primary ${className}`}

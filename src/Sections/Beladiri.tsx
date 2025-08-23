@@ -1,6 +1,5 @@
 import VideoCard from "@/Components/VideoCard";
 import { beladiriDatas } from "@/Datas/videoDatas";
-import YouTubeThumbnail from "@/lib/YoutubeThumbnail";
 import React from "react";
 
 interface BelaDiriProps {
@@ -15,7 +14,7 @@ const BelaDiri: React.FC<BelaDiriProps> = ({ id, className, children }) => {
       id={id}
       className={`min-h-screen bg-white-bone ${className} animate-fade-in-up`}
     >
-      <div className="grid grid-cols-4 p-10">
+      <div className="grid grid-cols-2 p-10 lg:grid-cols-3">
         {beladiriDatas.map((video, idx) => (
           <VideoCard
             key={idx}

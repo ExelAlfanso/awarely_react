@@ -16,33 +16,13 @@ export const beladiriDatas: beladiriData[] = [
     href: "https://youtu.be/kiKGjntQItI",
   },
   {
-    title: "Tutorial Wingchun Tangan",
-    description: "Tutorial mengenai latihan Tangan dalam Seni Wing Chun",
-    href: "https://youtu.be/kiKGjntQItI",
+    title: "Tips Bertahan Dari Penjahat di Jalan",
+    description: "Tips dari Aktor dan Pembela Diri Iko Uwais",
+    href: "https://youtu.be/6XK0Wj7gnsM",
   },
   {
-    title: "Tutorial Wingchun Tangan",
-    description: "Tutorial mengenai latihan Tangan dalam Seni Wing Chun",
-    href: "https://youtu.be/kiKGjntQItI",
-  },
-  {
-    title: "Tutorial Wingchun Tangan",
-    description: "Tutorial mengenai latihan Tangan dalam Seni Wing Chun",
-    href: "https://youtu.be/kiKGjntQItI",
-  },
-  {
-    title: "Tutorial Wingchun Tangan",
-    description: "Tutorial mengenai latihan Tangan dalam Seni Wing Chun",
-    href: "https://youtu.be/kiKGjntQItI",
-  },
-  {
-    title: "Tutorial Wingchun Tangan",
-    description: "Tutorial mengenai latihan Tangan dalam Seni Wing Chun",
-    href: "https://youtu.be/kiKGjntQItI",
-  },
-  {
-    title: "Tutorial Wingchun Tangan",
-    description: "Tutorial mengenai latihan Tangan dalam Seni Wing Chun",
-    href: "https://youtu.be/kiKGjntQItI",
+    title: "RAWAN KEJAHATAN! Cuma 15 Menit, Belajar Beladiri Praktis Di Rumah!",
+    description: "Tutorial mengenai cara belajar beladiri di rumah",
+    href: "https://youtu.be/A6SBRY_rLu4",
   },
 ];
